@@ -1,4 +1,20 @@
 <?php 
+
+//     _|_|            _|                        _|                  _|                
+//   _|        _|_|_|      _|  _|_|    _|_|_|  _|_|_|_|    _|_|_|  _|_|_|_|    _|_|_|  
+// _|_|_|_|  _|    _|  _|  _|_|      _|_|        _|      _|    _|    _|      _|_|      
+//   _|      _|    _|  _|  _|            _|_|    _|      _|    _|    _|          _|_|  
+//   _|        _|_|_|  _|  _|        _|_|_|        _|_|    _|_|_|      _|_|  _|_|_|     
+//                 v. 0.1 alpha - JCRueda.com - github.com/disketteomelette/fairstats
+//
+//               2024 - LICENCIADO BAJO CREATIVE COMMONS RECONOCIMIENTO
+//                          + info: dentro del dashboard
+//
+//
+//  Herramienta: AGENTE
+//  Descripción: Llame a este archivo desde tu código utilizando un include  
+//               para comenzar a registrar visitas. 
+
 function pseudoanonimizarIP($ip) { 
     $hash_ip = hash('sha256', hash('sha256', $ip) . hash('md5', ($tamano_archivo = filesize('visita.php'))) . ($pepper = hash('sha256', $tamano_archivo)));
     for ($i = 0; $i < 5; $i++) {$hash_ip = hash('sha256', $hash_ip . $salt . $pepper);} 
