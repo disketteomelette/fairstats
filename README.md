@@ -31,8 +31,5 @@ Este software ha sido desarrollado por JCRueda.com. El proyecto se regula de acu
 
 # Configurando fairstats
 
-Fairstats es muy sencillo de configurar si tu aplicación funciona en PHP (Wordpress, Joomla, etc.). Basta con colocar el agente y el dashboard en tu carpeta principal, e inyectar este código en un header o footer:
-  <?php include "visita.php";?>
-
-En caso de páginas HTML u otras tecnologías, si tu servidor es Apache puedes añadir la siguiente regla a tu archivo .htaccess para permitir ejecutar scripts PHP en archivos distintos a .php :
-  AddType application/x-httpd-php .html
+Fairstats es muy sencillo de configurar si tu aplicación funciona en PHP (Wordpress, Joomla, etc.). Basta con colocar el agente y el dashboard en tu carpeta principal, y llamar al agente mediante un include en un header o footer (visita.php). 
+En caso de páginas HTML u otras tecnologías, si tu servidor es Apache puedes añadir la siguiente regla a tu archivo .htaccess para permitir ejecutar scripts PHP en archivos distintos a .php :   AddType application/x-httpd-php .html
