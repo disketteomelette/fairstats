@@ -1,7 +1,7 @@
 # fairstats
 Herramienta PHP de analítica web que no utiliza base de datos, cookies ni datos personales de los usuarios.
 
-![Captura de pantalla de fairstats]([[ttp://url/to/img.png](https://github.com/disketteomelette/fairstats/blob/main/scr.jpg)](https://github.com/disketteomelette/fairstats/blob/main/scr.jpg))
+![Captura](scr.jpg) 
 
 # Funcionalidades de análisis
 
