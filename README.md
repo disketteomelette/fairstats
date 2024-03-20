@@ -1,7 +1,7 @@
 # fairstats
 Herramienta PHP de analítica web que no utiliza base de datos, cookies ni datos personales de los usuarios.
 
-![Captura](scr.jpg) 
+![Captura](scr2.jpg) 
 
 # Funciones de análisis de visitantes
 
