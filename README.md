@@ -24,7 +24,7 @@ Para ello, la IP se somete a un primer proceso de hashing usando el algoritmo SH
 
 # Licencia
 
-Este software ha sido desarrollado por JCRueda.com. El proyecto se regula de acuerdo con los términos de la licencia Creative Commons Atribución Sin Derivadas (CC BY-ND). Esta licencia permite a los usuarios utilizar el software libremente, siempre que se reconozca la autoría del trabajo original y no se realicen modificaciones en el mismo. Debe citarse el repositorio original del archivo: https://github.com/disketteomelette/fairstats
+Este software ha sido desarrollado por JCRueda.com. El proyecto se regula de acuerdo con los términos de la licencia Creative Commons Atribución (CC BY). Esta licencia permite a los usuarios utilizar el software libremente y realizar modificaciones, siempre que se reconozca la autoría del trabajo original. Debe citarse el repositorio original del archivo: https://github.com/disketteomelette/fairstats
 
 # Configurando fairstats
 
