@@ -3,7 +3,7 @@ Herramienta PHP de analítica web que no utiliza base de datos, cookies ni datos
 
 ![Captura](scr.jpg) 
 
-# Funcionalidades de análisis
+# Funciones de análisis de visitantes
 
 - Número de visitas diarias
 - Visualización de visitas por hora
@@ -15,7 +15,7 @@ Herramienta PHP de analítica web que no utiliza base de datos, cookies ni datos
 - Sistema operativo
 - Listado completo de visitas
 
-# Funcionalidades de privacidad
+# Enfocado en la privacidad del usuario
 
 Fairstats se basa en la pseudoanonimización de las direcciones IP. El proceso de pseudoanonimización implica transformar la dirección IP del usuario en una representación hash. Esta representación hash conserva la información esencial para fines de análisis mientras hace prácticamente imposible revertir la dirección IP original. 
 
