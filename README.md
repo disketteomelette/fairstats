@@ -1,4 +1,4 @@
-# fairstats
+# fairstats v.0.1 a
 Herramienta PHP de analítica web que no utiliza base de datos, cookies ni datos personales de los usuarios. Se trata de una versión alfa muy básica, por lo que espero poder seguir mejorándolo en el futuro. 
 
 ![Captura](scr2.jpg) 
