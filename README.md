@@ -22,6 +22,8 @@ Fairstats se basa en (1) el principio de minimización de datos, obteniendo úni
 
 Para ello, la IP se somete a un primer proceso de hashing usando el algoritmo SHA-256. Se utiliza el tamaño del archivo agente "visita.php" para generar, a su vez, dos hashes: uno MD5 y otro SHA-256. Estos últimos dos hashes son agregados al primer hash que contiene la IP encriptada, y con su resultado se realiza un hashing iterativo en SHA-256 (cinco veces). Esto mantiene la privacidad del usuario mientras preserva la usabilidad de los datos objeto de análisis. Este proceso de pseudoanonimización combina técnicas criptográficas robustas con medidas de seguridad adicionales para proteger efectivamente los datos del usuario. Los usuarios pueden confiar en que su privacidad es respetada sin comprometer la utilidad de nuestra herramienta de análisis.
 
+Modificando (sin alterar la funcionalidad) el archivo "visita.php" (por ejemplo, introduciendo un carácter de texto o un comentario PHP) altera su tamaño y también la semilla que se usa para generar los hashes, lo que puedes utilizar para que los códigos sean aun más únicos.
+
 # Licencia
 
 Este software ha sido desarrollado por JCRueda.com. El proyecto se regula de acuerdo con los términos de la licencia Creative Commons Atribución (CC BY). Esta licencia permite a los usuarios utilizar el software libremente y realizar modificaciones, siempre que se reconozca la autoría del trabajo original. Debe citarse el repositorio original del archivo: https://github.com/disketteomelette/fairstats
